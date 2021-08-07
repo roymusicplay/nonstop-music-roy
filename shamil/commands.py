@@ -69,13 +69,13 @@ async def start(client, message):
         [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/MOVIE_CHANNEL_1234'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/DOSTI_GROUP_1234')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣', url='https://t.me/MOVIE_CHANNEL_1234'),
+                InlineKeyboardButton('𝗔𝗕𝗛𝗜𝗡𝗔𝗦', url='https://t.me/abhinasroy')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 𝗙𝗔𝗧𝗛𝗘𝗥 📜', url='https://t.me/abhinasroy'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -87,15 +87,15 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/MOVIE_CHANNEL_1234'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/DOSTI_GROUP_1234')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣', url='https://t.me/MOVIE_CHANNEL_1234'),
+                InlineKeyboardButton('🎧 𝗔𝗕𝗛𝗜𝗡𝗔𝗦', url='https://t.me/abhinasroy')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('📜 𝗙𝗔𝗧𝗛𝗘𝗥 📜', url='https://t.me/abhinasroy'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/8c24ea56ae5cd69b321cc.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
