@@ -58,7 +58,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __@abhinasroy | @abhinasroy__ ]
 """
 
 
@@ -67,7 +67,7 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
+        InlineKeyboardButton('❔ How To Use Me', url='https://telegra.ph/लल-बदशह-08-08-3'),
                 ],[
                 InlineKeyboardButton('📢 Updates', url='https://t.me/MOVIE_CHANNEL_1234'),
                 InlineKeyboardButton('💬 Support', url='https://t.me/DOSTI_GROUP_1234')
