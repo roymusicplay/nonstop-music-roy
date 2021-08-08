@@ -26,7 +26,7 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
+        InlineKeyboardButton("❔ 𝗛𝗘𝗟𝗣 ❔", url='https://telegra.ph/लल-बदशह-08-08-4'),
                 ],[
                 InlineKeyboardButton('📢 Updates', url='https://t.me/MOVIE_CHANNEL_1234'),
                 InlineKeyboardButton('💬 Support', url='https://t.me/DOSTI_GROUP_1234')
